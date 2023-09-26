@@ -1,13 +1,22 @@
-h1{
+h1,h2{
     color: red;
-    border: 1px solid black;
+    
+    border-radius: 15px;
 }
-.subHeading{
-    color: gray;
+img{
+    border: 1px solid white;
+    border-radius: 50%;
 }
+
+
 body{
-    background-color: #2A2B31;
+    background-color: gray;
     color: #ECECF1;
+}
+.dim{
+    color: white;
+    border: 1px solid white;
+    border-radius: 15px;
 }
 .mainpara{
     margin: 0px 0px 0px 40px;
@@ -19,3 +28,150 @@ body{
 .edutable th{
 padding: 10px 20px 10px 20px;
 }
+.underline{
+    text-decoration: underline;
+}/* Apply basic styles to the table */
+Default (GPT-3.5)
+
+User
+ <table border="1" class="edutable">
+        <tr>
+            <th>Name of Degree</th>
+            <th>institute</th>
+            <th>Grade</th>
+            <th>Year</th>
+          </tr>
+          <tr>
+            <td>ssc</td>
+            <td>swghs gujranwala</td>
+            <td>A</td>
+            <td>2016</td>
+          </tr>
+          <tr>
+            <td>Hsc</td>
+            <td>brellient collagr peshawar</td>
+            <td>A</td>
+            <td>2019</td>
+          </tr>
+          <tr>
+            <td>Bsc</td>
+            <td>UET peshawar</td>
+            <td>A</td>
+            <td>2023</td>
+          </tr>
+    </table>
+ChatGPT
+It appears that you've provided an HTML table containing educational information. This table seems to represent your academic qualifications with details such as the name of the degree, institute, grade, and year of completion. Here's the information from the table:
+
+Name of Degree	Institute	Grade	Year
+SSC	Swghs Gujranwala	A	2016
+HSC	Brellient Collagr Peshawar	A	2019
+Bsc	UET Peshawar	A	2023
+Is there anything specific you would like to know or do with this table?
+
+
+
+
+User
+above is html table give me best css styling for this
+ChatGPT
+
+2 / 2
+
+Certainly! Here's some CSS styling to enhance the appearance of your HTML table:
+
+css
+Copy code
+<style>
+    /* Apply some basic styles to the table */
+    table {
+        width: 100%;
+        border-collapse: collapse;
+        font-family: Arial, sans-serif;
+    }
+
+    /* Style the table header */
+    th {
+        background-color: #f2f2f2;
+        text-align: left;
+        padding: 10px;
+        border: 1px solid #ddd;
+    }
+
+    /* Style the table cells */
+    td {
+        padding: 10px;
+        border: 1px solid #ddd;
+    }
+
+    /* Alternate row background color */
+    tr:nth-child(even) {
+        background-color: #f2f2f2;
+    }
+
+    /* Hover effect on rows */
+    tr:hover {
+        background-color: #ddd;
+    }
+</style>
+You can add this CSS code within the <style> tags in your HTML document's <head> section. This CSS styling will:
+
+Set a 100% width for the table and collapse the borders.
+Style the table headers with a light gray background and left-aligned text.
+Add padding and a border to the table cells.
+Apply alternating row background colors for better readability.
+Add a hover effect to highlight rows when you hover over them.
+Feel free to adjust the colors, fonts, and other styles to match your preferences and the overall design of your webpage.
+
+
+
+
+User
+this style doesnot match with my bacground background-color: gray;color 
+ChatGPT
+If your background color is gray and you'd like to adjust the table styling to match it, you can modify the CSS accordingly. Here's a modified version of the CSS to better match a gray background:
+
+css
+Copy code
+<style>
+    /* Apply some basic styles to the table */
+    table {
+        width: 100%;
+        border-collapse: collapse;
+        font-family: Arial, sans-serif;
+        background-color: gray; /* Set the table background color */
+    }
+
+    /* Style the table header */
+    th {
+        background-color: #333; /* Darker background color for headers */
+        color: white; /* Header text color */
+        text-align: left;
+        padding: 10px;
+        border: 1px solid #ddd;
+    }
+
+    /* Style the table cells */
+    td {
+        padding: 10px;
+        border: 1px solid #ddd;
+    }
+
+    /* Alternate row background color */
+    tr:nth-child(even) {
+        background-color: #666; /* Darker gray for even rows */
+    }
+
+    /* Hover effect on rows */
+    tr:hover {
+        background-color: #999; /* Lighter gray on hover */
+    }
+</style>.bio-container {
+    background-color: #f0f0f0; /* Set the background color to gray */
+    padding: 20px; /* Add some padding for spacing */
+    border-radius: 5px; /* Optional: Add rounded corners */
+  }
+  
+  .bio
+  
+
