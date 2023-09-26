@@ -1,0 +1,21 @@
+h1{
+    color: red;
+    border: 1px solid black;
+}
+.subHeading{
+    color: gray;
+}
+body{
+    background-color: #2A2B31;
+    color: #ECECF1;
+}
+.mainpara{
+    margin: 0px 0px 0px 40px;
+}
+.edutable{
+    margin: 40px;
+}
+.edutable td,
+.edutable th{
+padding: 10px 20px 10px 20px;
+}
